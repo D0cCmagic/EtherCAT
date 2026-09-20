@@ -1,21 +1,26 @@
-# SHA256 checksums - verify after transferring this repository
+# SHA256 checksums - verify after transferring or cloning this repository
+#
+# These hashes describe the bytes as stored in Git. The repository pins
+# line endings via .gitattributes ("* -text") so hashes are stable across
+# platforms. Do NOT add a text=auto rule or these will stop matching.
+#
 #   Windows : Get-FileHash -Algorithm SHA256 <file>
 #   Linux   : sha256sum <file>
 
-6f761c2d53e91fc2f0dde927e9cf2778e81c9c97b9fc54909fc4a6b5b01f3657  docs/ETHERCAT_FAE_QUESTIONS.md  (8971 bytes)
-0c95bc6e69d42f38e84a0950b32537be7f27c30839ceff18f2ca37f887fb2ab5  docs/ETHERCAT_HANDOFF.md  (16134 bytes)
+3f3330f6e0f8f1287010247140a8576607d2150de6159c10fa0846b0d98ca3ef  docs/ETHERCAT_FAE_QUESTIONS.md  (9211 bytes)
+f625f7c2a61b3f1efad1e5e8ec9bd16ee9d6442a500ea899fc1bb270c390d0f4  docs/ETHERCAT_HANDOFF.md  (16411 bytes)
 fb0fd98e78f40662069a0d0705aa205d5a06aa0705672be8863d7ccdd5a32790  docs/ETHERCAT_LEARNING_NOTES.md  (116812 bytes)
-d8ae2a3de36a219ec7235230fffcd2fdd2bb7637ec971eecb71e4c3b5832e27f  README.md  (5638 bytes)
-85e23df84972a59cfca3238ac75ae7950f4345bd32ff3152e87a215173b797eb  src/Mcal/inc/Mcal_Esc_Init.h  (2227 bytes)
-bb1232391fec322d4377755af61c70b111e7b6f5a7f9b02702027bc43e7e7d7e  src/Mcal/inc/Mcal_Esc_Reg.h  (1722 bytes)
-9f59973a72407d235b1b473f37136722e6e65e227ce5f22b70aaf45720667979  src/Mcal/src/Mcal_Esc_Init.c  (3468 bytes)
-df41497e7a24bcb9ef4eea34ef0250f937251798432937fdee7f8fa9cffd4663  src/Mcal/src/Mcal_Esc_Reg.c  (3750 bytes)
-913bd7bd531c11e6c46be5a01a4a4a37bfebc9ba0c16b07b424cdbfbfe935e5f  src/User_App/inc/App_Cia402.h  (3696 bytes)
+c96d604214893b9ed5315f0d4775666a3a72b153b3c7d2ef93e7691412c51619  README.md  (5772 bytes)
+c232b69b5e5fcf2df219dbb667359ca2a05b2760a5d54bc1b9efd1427c492403  src/Mcal/inc/Mcal_Esc_Init.h  (2298 bytes)
+fd5d88d712c3b01d5f53aafa5816f81a9a4e14a65f15f577f8f55b15f3b7eea4  src/Mcal/inc/Mcal_Esc_Reg.h  (1771 bytes)
+e7e5f74226ae9f4b3070934bdac704cc1f3a385f9d455eb72c7fde3f8a70a906  src/Mcal/src/Mcal_Esc_Init.c  (3587 bytes)
+644eb169fe77d59f7799109204e7976be07edde9534233d9eee7ffe25926eaf6  src/Mcal/src/Mcal_Esc_Reg.c  (3881 bytes)
+7077252aa318994f5e769e86b9b4c15a62391788cb2ec796500a1d4dfc16a0de  src/User_App/inc/App_Cia402.h  (3791 bytes)
 da70f1c7f5526651f0cb05e58d48b0bd79ce09b3dea33317a521fb880512fbc7  src/User_App/inc/App_Esc_Esm.h  (2163 bytes)
-d70dd43cd4c2c90b12a8966b78a8b61398990376e846b7107bf7b8035ed9d528  src/User_App/inc/App_Esc_Reg.h  (6899 bytes)
-821e42aaa0533b89fe64f88a3a66fbb1f466c40e7012d44d86276120787fc0d7  src/User_App/src/App_Cia402.c  (9136 bytes)
-576ea374856e4fe45de2b37805695b9daa47e7c02d3b07636be5a0d1527aeeea  src/User_App/src/App_Esc_Esm.c  (11369 bytes)
-a1a3d957277da770efbc873eaf952a3859f55be017200c6b1cfa774f79540105  tools/cia402_behaviour_check.c  (3817 bytes)
-f055384af1807b7388ee8fbcc163cfce99c3432f7be77363cfb4fa175added8f  tools/cia402_table_check.py  (4072 bytes)
+7499344cbdf1420b3b41af784ec89404883574f638b1cbd5b5bdc5e180396c36  src/User_App/inc/App_Esc_Reg.h  (7027 bytes)
+8136fd40e6475f97e79663e8b2eb1a4b5e229f50b15bd5ae924505b17e26b0ac  src/User_App/src/App_Cia402.c  (9426 bytes)
+d7acaf0a656405e6f4caf8675477c898cdb55dbe5ab6d7ec8659ce43eb29fc57  src/User_App/src/App_Esc_Esm.c  (11766 bytes)
+46868c11bc4163178e0268fb1f5b4ee9b636eafeaa6c170c987c44afa4152c3e  tools/cia402_behaviour_check.c  (3906 bytes)
+4afd6cae4d26127cff6fa8f8ad3af9c0c9e1d3d5468bfa98f075a35086fd5da6  tools/cia402_table_check.py  (4169 bytes)
 
 # files: 15
