@@ -1,0 +1,21 @@
+# SHA256 checksums - verify after transferring this repository
+#   Windows : Get-FileHash -Algorithm SHA256 <file>
+#   Linux   : sha256sum <file>
+
+6f761c2d53e91fc2f0dde927e9cf2778e81c9c97b9fc54909fc4a6b5b01f3657  docs/ETHERCAT_FAE_QUESTIONS.md  (8971 bytes)
+0c95bc6e69d42f38e84a0950b32537be7f27c30839ceff18f2ca37f887fb2ab5  docs/ETHERCAT_HANDOFF.md  (16134 bytes)
+fb0fd98e78f40662069a0d0705aa205d5a06aa0705672be8863d7ccdd5a32790  docs/ETHERCAT_LEARNING_NOTES.md  (116812 bytes)
+d8ae2a3de36a219ec7235230fffcd2fdd2bb7637ec971eecb71e4c3b5832e27f  README.md  (5638 bytes)
+85e23df84972a59cfca3238ac75ae7950f4345bd32ff3152e87a215173b797eb  src/Mcal/inc/Mcal_Esc_Init.h  (2227 bytes)
+bb1232391fec322d4377755af61c70b111e7b6f5a7f9b02702027bc43e7e7d7e  src/Mcal/inc/Mcal_Esc_Reg.h  (1722 bytes)
+9f59973a72407d235b1b473f37136722e6e65e227ce5f22b70aaf45720667979  src/Mcal/src/Mcal_Esc_Init.c  (3468 bytes)
+df41497e7a24bcb9ef4eea34ef0250f937251798432937fdee7f8fa9cffd4663  src/Mcal/src/Mcal_Esc_Reg.c  (3750 bytes)
+913bd7bd531c11e6c46be5a01a4a4a37bfebc9ba0c16b07b424cdbfbfe935e5f  src/User_App/inc/App_Cia402.h  (3696 bytes)
+da70f1c7f5526651f0cb05e58d48b0bd79ce09b3dea33317a521fb880512fbc7  src/User_App/inc/App_Esc_Esm.h  (2163 bytes)
+d70dd43cd4c2c90b12a8966b78a8b61398990376e846b7107bf7b8035ed9d528  src/User_App/inc/App_Esc_Reg.h  (6899 bytes)
+821e42aaa0533b89fe64f88a3a66fbb1f466c40e7012d44d86276120787fc0d7  src/User_App/src/App_Cia402.c  (9136 bytes)
+576ea374856e4fe45de2b37805695b9daa47e7c02d3b07636be5a0d1527aeeea  src/User_App/src/App_Esc_Esm.c  (11369 bytes)
+a1a3d957277da770efbc873eaf952a3859f55be017200c6b1cfa774f79540105  tools/cia402_behaviour_check.c  (3817 bytes)
+f055384af1807b7388ee8fbcc163cfce99c3432f7be77363cfb4fa175added8f  tools/cia402_table_check.py  (4072 bytes)
+
+# files: 15
